@@ -15,16 +15,30 @@
         <form action="">
           <div class="input-block">
             <label for="login-email">Modelo do Veiculo</label>
-            <input  id="login-email" />
+            <input  type="text" id="veiculo" />
           </div>
           <div class="input-block">
             <label for="login-password">Placa do Veiculo</label>
-            <input  id="login-password" />
+            <input  type="text" id="placa" />
           </div>
-          <button type="submit" class="btn-login">Cadastrar</button>
+          <button type="submit" id="botao" class="btn-login">Registrar</button>
+          
         </form>
       </div>
     </section>
-    
+
+    <table>
+      <thead>
+        <tr>
+          <th>Veiculo</th>
+          <th>Placa</th>
+          <th>Horário</th>
+          <th>Ações</th>
+        </tr>
+        <tbody>id="garagem"</tbody>
+      </thead>
+    </table>
+  
+    <script src="./js.js"></script>
   </body>
 </html>
